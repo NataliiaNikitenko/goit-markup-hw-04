@@ -341,6 +341,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon:hover {
@@ -352,7 +353,7 @@ img {
 }
 
 .icon-icon {
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 
 /* Portfolio */
@@ -456,6 +457,11 @@ img {
   gap: 120px;
 }
 
+.social-icons {
+  align-items: baseline;
+  margin-right: 120px;
+}
+
 .footer-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -487,4 +493,19 @@ img {
 
 .social-main {
   margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.icon {
+  fill: #f4f4fd;
+}
+
+.icon-item: hover;
+ {
+  background-color: #31d0aa;
+}
+.icon-item:focus {
+  background-color: #31d0aa;
 }
