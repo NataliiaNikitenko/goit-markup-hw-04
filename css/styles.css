@@ -401,6 +401,11 @@ img {
   width: calc((100% - 24px * 2) / 3);
 }
 
+.sellers-cover-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
 .card:hover .portfolio-cover-text {
   transform: translateY(0);
 }
