@@ -455,6 +455,7 @@ img {
 .footer-container {
   display: flex;
   gap: 120px;
+  align-items: baseline;
 }
 
 .social-icons {
@@ -489,6 +490,10 @@ img {
   gap: 16px;
   align-items: center;
   justify-content: center;
+}
+
+.footer-bg {
+  margin-right: 120px;
 }
 
 .social-main {
