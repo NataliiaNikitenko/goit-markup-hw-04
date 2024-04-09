@@ -81,6 +81,7 @@ img {
 }
 
 .header-menu-link {
+  display: block;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -396,9 +397,9 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-  padding-left: 16px;
   margin-bottom: 8px;
 }
+
 .portfolio-description {
   text-align: left;
   font-size: 16px;
@@ -454,7 +455,6 @@ img {
 
 .footer-container {
   display: flex;
-  gap: 120px;
   align-items: baseline;
 }
 
